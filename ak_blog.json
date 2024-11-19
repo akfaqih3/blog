@@ -1,0 +1,1106 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2024-08-18T17:34:02.656Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2024-08-18T17:52:11.234Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2024-08-19T14:52:59.589Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "django tutorail",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2024-08-19T14:53:32.929Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Node tutorail",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2024-08-22T19:13:49.798Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Adding pagination",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2024-08-22T19:14:32.583Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Building class-based views",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2024-08-22T19:15:09.914Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Using canonical URLs for models",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2024-08-22T19:15:44.112Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2024-08-22T19:15:52.545Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Building class-based views",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2024-08-22T19:28:02.699Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2024-08-22T19:29:14.945Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2024-08-22T19:29:27.840Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2024-08-22T19:29:40.080Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "django tutorail",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2024-08-22T19:29:47.650Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Node tutorail",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2024-08-22T19:38:19.599Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Recommending posts by email",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2024-08-22T20:11:23.249Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Sending emails with Django",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2024-08-24T20:04:16.438Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Comment by أكرم محمد علي الفقيه on SEO-friendly URLs for posts",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2024-08-24T21:15:05.160Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2024-08-25T13:56:57.487Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2024-08-25T13:57:44.353Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2024-08-25T13:58:14.285Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "python tutorial",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2024-08-25T13:58:53.714Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "jaz",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2024-08-25T13:59:08.069Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2024-08-25T14:41:55.707Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Sending emails with Django",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2024-08-27T20:27:26.632Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Markdwon Post",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2024-08-27T20:27:44.959Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Markdwon Post",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2024-08-27T20:57:21.944Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "localhost:8000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2024-08-29T18:26:16.879Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "SEO-friendly URLs for posts",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add post",
+      "content_type": 7,
+      "codename": "add_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change post",
+      "content_type": 7,
+      "codename": "change_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete post",
+      "content_type": 7,
+      "codename": "delete_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view post",
+      "content_type": 7,
+      "codename": "view_post"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add comment",
+      "content_type": 8,
+      "codename": "add_comment"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change comment",
+      "content_type": 8,
+      "codename": "change_comment"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete comment",
+      "content_type": 8,
+      "codename": "delete_comment"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view comment",
+      "content_type": 8,
+      "codename": "view_comment"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can add tag",
+      "content_type": 9,
+      "codename": "add_tag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can change tag",
+      "content_type": 9,
+      "codename": "change_tag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can delete tag",
+      "content_type": 9,
+      "codename": "delete_tag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can view tag",
+      "content_type": 9,
+      "codename": "view_tag"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add tagged item",
+      "content_type": 10,
+      "codename": "add_taggeditem"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change tagged item",
+      "content_type": 10,
+      "codename": "change_taggeditem"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete tagged item",
+      "content_type": 10,
+      "codename": "delete_taggeditem"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can view tagged item",
+      "content_type": 10,
+      "codename": "view_taggeditem"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can add site",
+      "content_type": 11,
+      "codename": "add_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can change site",
+      "content_type": 11,
+      "codename": "change_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can delete site",
+      "content_type": 11,
+      "codename": "delete_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can view site",
+      "content_type": 11,
+      "codename": "view_site"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$870000$O8TjIdcKg5A3qQDooTbY9N$vjeGWTvd9MTW2HoiMg4awYokwIH9TENFGx3QvPYYnfE=",
+      "last_login": "2024-08-29T18:24:14.925Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-08-18T17:29:45.886Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "blog",
+      "model": "post"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "blog",
+      "model": "comment"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "taggit",
+      "model": "tag"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "taggit",
+      "model": "taggeditem"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "sites",
+      "model": "site"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2444vmyypnsncqb6vvyoaraq24z8pv36",
+   "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-26Gk5wzW7nqDA8iR4qRC3B0ipYD2zcx7iQzbWvPWeclTEWehxel3Q6AHtx2UO7TbLGlu6zKh3BV50C6vc-Hn5XD_Dir0-q3RWm10GDEoxRG1ATSFjRs9oVYJ0Bc_UHLWa4hEEQMbggHJsoMUQLw_5l04bw:1shy1y:7Tdk5vIosuJTudJfiiunEz89I429Bc21_1tiVnEvulE",
+      "expire_date": "2024-09-07T21:10:42.765Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "3bver4kw6wahutsbhscc0clchxolggf0",
+   "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-26Gk5wzW7nqDA8iR4qRC3B0ipYD2zcx7iQzbWvPWeclTEWehxel3Q6AHtx2UO7TbLGlu6zKh3BV50C6vc-Hn5XD_Dir0-q3RWm10GDEoxRG1ATSFjRs9oVYJ0Bc_UHLWa4hEEQMbggHJsoMUQLw_5l04bw:1sj2lh:_VTCJxvDqT_SWFhC1AdHyJ62OsRDDArVzB5IZaVXMc4",
+      "expire_date": "2024-09-10T20:26:21.009Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "7w1sndnc996br8xmyad2rf90ermm9e19",
+   "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-26Gk5wzW7nqDA8iR4qRC3B0ipYD2zcx7iQzbWvPWeclTEWehxel3Q6AHtx2UO7TbLGlu6zKh3BV50C6vc-Hn5XD_Dir0-q3RWm10GDEoxRG1ATSFjRs9oVYJ0Bc_UHLWa4hEEQMbggHJsoMUQLw_5l04bw:1sjjoc:xb78n-CeVlUl04k3vX1sycg-snaj5JK8GDb0lSubexI",
+      "expire_date": "2024-09-12T18:24:14.946Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "m726073nuyeyd62xdo0la69r3n5m5oy5",
+   "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-26Gk5wzW7nqDA8iR4qRC3B0ipYD2zcx7iQzbWvPWeclTEWehxel3Q6AHtx2UO7TbLGlu6zKh3BV50C6vc-Hn5XD_Dir0-q3RWm10GDEoxRG1ATSFjRs9oVYJ0Bc_UHLWa4hEEQMbggHJsoMUQLw_5l04bw:1siXnB:K5oCQmAHyPS6NY73HCLjzddQ4mitN-AND5RrtER6eTg",
+      "expire_date": "2024-09-09T11:21:49.416Z"
+   }
+},
+{
+   "model": "sites.site",
+   "pk": 1,
+   "fields": {
+      "domain": "localhost:8000",
+      "name": "localhost:8000"
+   }
+},
+{
+   "model": "taggit.tag",
+   "pk": 1,
+   "fields": {
+      "name": "muzic",
+      "slug": "muzic"
+   }
+},
+{
+   "model": "taggit.tag",
+   "pk": 2,
+   "fields": {
+      "name": "jazz",
+      "slug": "jazz"
+   }
+},
+{
+   "model": "taggit.tag",
+   "pk": 3,
+   "fields": {
+      "name": "django",
+      "slug": "django"
+   }
+},
+{
+   "model": "taggit.tag",
+   "pk": 5,
+   "fields": {
+      "name": "markdown",
+      "slug": "markdown"
+   }
+},
+{
+   "model": "taggit.taggeditem",
+   "pk": 2,
+   "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 1
+   }
+},
+{
+   "model": "taggit.taggeditem",
+   "pk": 7,
+   "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 9
+   }
+},
+{
+   "model": "taggit.taggeditem",
+   "pk": 8,
+   "fields": {
+      "tag": 5,
+      "content_type": 7,
+      "object_id": 10
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 1,
+   "fields": {
+      "title": "python tutorial",
+      "slug": "python-tutorial",
+      "author": 1,
+      "body": "python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial python tutorial",
+      "publish": "2024-08-18T17:33:20Z",
+      "created": "2024-08-18T17:34:02.654Z",
+      "updated": "2024-08-25T13:58:14.278Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 2,
+   "fields": {
+      "title": "django tutorail",
+      "slug": "django-tutorail",
+      "author": 1,
+      "body": "django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail django tutorail",
+      "publish": "2024-08-19T14:52:24Z",
+      "created": "2024-08-19T14:52:59.587Z",
+      "updated": "2024-08-22T19:29:40.077Z",
+      "status": "DF"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 3,
+   "fields": {
+      "title": "Node tutorail",
+      "slug": "node-tutorail",
+      "author": 1,
+      "body": "Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail Node tutorail",
+      "publish": "2024-08-19T14:52:59Z",
+      "created": "2024-08-19T14:53:32.927Z",
+      "updated": "2024-08-22T19:29:47.647Z",
+      "status": "DF"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 4,
+   "fields": {
+      "title": "Adding pagination",
+      "slug": "adding-pagination",
+      "author": 1,
+      "body": "When you start adding content to your blog, you can easily store tens or hundreds of posts in your \r\ndatabase. Instead of displaying all the posts on a single page, you may want to split the list of posts \r\nacross several pages and include navigation links to the different pages. This functionality is called \r\npagination, and you can find it in almost every web application that displays long lists of items.",
+      "publish": "2024-08-22T19:13:25Z",
+      "created": "2024-08-22T19:13:49.795Z",
+      "updated": "2024-08-22T19:13:49.795Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 5,
+   "fields": {
+      "title": "Building class-based views",
+      "slug": "building-class-based-views",
+      "author": 1,
+      "body": "Class-based views are an alternative way to implement views as Python objects instead of functions. \r\nSince a view is a function that takes a web request and returns a web response, you can also define \r\nyour views as class methods. Django provides base view classes that you can use to implement your \r\nown views. All of them inherit from the View class, which handles HTTP method dispatching and \r\nother common functionalities.",
+      "publish": "2024-08-22T19:13:49Z",
+      "created": "2024-08-22T19:14:32.579Z",
+      "updated": "2024-08-22T19:15:52.541Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 6,
+   "fields": {
+      "title": "Using canonical URLs for models",
+      "slug": "using-canonical-urls-for-models",
+      "author": 1,
+      "body": "A website might have different pages that display the same content. In our application, the initial part \r\nof the content for each post is displayed both on the post list page and the post detail page. A canonical \r\nURL is the preferred URL for a resource. You can think of it as the URL of the most representative \r\npage for specific content. There might be different pages on your site that display posts, but there is \r\na single URL that you use as the main URL for a post.",
+      "publish": "2024-08-22T19:14:32Z",
+      "created": "2024-08-22T19:15:09.912Z",
+      "updated": "2024-08-22T19:15:09.912Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 8,
+   "fields": {
+      "title": "Recommending posts by email",
+      "slug": "recommending-posts-by-email",
+      "author": 1,
+      "body": "We will allow users to share blog posts with others by sending post recommendations via email. You\r\nwill learn how to create forms in Django, handle data submission, and send emails with Django, enhancing your blog with a personal touch.",
+      "publish": "2024-08-22T19:38:00Z",
+      "created": "2024-08-22T19:38:19.596Z",
+      "updated": "2024-08-22T19:38:19.596Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 9,
+   "fields": {
+      "title": "Sending emails with Django",
+      "slug": "sending-emails-with-django",
+      "author": 1,
+      "body": "Sending emails with Django is very straightforward. You need to have a local SMTP server, or you need\r\nto access an external SMTP server, like your email service provider.\r\nThe following settings allow you to define the SMTP configuration to send emails with Django:\r\n• EMAIL_HOST: The SMTP server host; the default is localhost\r\n• EMAIL_PORT: The SMTP port; the default is 25\r\n• EMAIL_HOST_USER: The username for the SMTP server\r\n• EMAIL_HOST_PASSWORD: The password for the SMTP server\r\n• EMAIL_USE_TLS: Whether to use a Transport Layer Security (TLS) secure connection\r\n• EMAIL_USE_SSL: Whether to use an implicit TLS secure connection\r\nAdditionally, you can use the DEFAULT_FROM_EMAIL setting to specify the default sender when sending\r\nemails with Django. For this example, we will use Google’s SMTP server with a standard Gmail account.",
+      "publish": "2024-08-22T20:10:49Z",
+      "created": "2024-08-22T20:11:23.247Z",
+      "updated": "2024-08-25T14:41:55.705Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.post",
+   "pk": 10,
+   "fields": {
+      "title": "Markdwon Post",
+      "slug": "markdwon-post",
+      "author": 1,
+      "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+      "publish": "2024-08-27T20:26:26Z",
+      "created": "2024-08-27T20:27:26.632Z",
+      "updated": "2024-08-27T20:27:44.952Z",
+      "status": "PB"
+   }
+},
+{
+   "model": "blog.comment",
+   "pk": 3,
+   "fields": {
+      "post": 8,
+      "name": "أكرم قاسم",
+      "email": "akfaqih3@gmail.com",
+      "body": "like",
+      "created": "2024-08-24T20:01:14.990Z",
+      "updated": "2024-08-24T20:01:14.990Z",
+      "active": true
+   }
+}
+]

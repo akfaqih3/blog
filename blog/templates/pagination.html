@@ -1,0 +1,34 @@
+
+<div class="col">
+    <div class="block-27">
+        <ul>
+        {% with the_url='blog:post_list' %}
+            {% if page.has_previous %}
+                <li><a href="#"
+                    hx-get="{% url the_url %}?page={{page.previous_page_number}}"
+                    hx-trigger="click"
+                    hx-swap="innerHTML"
+                    hx-target="#main_section"
+                >&lt;</a></li>
+            {% endif %}
+            {% for k in page.paginator.page_range %}
+                <li  {% if page.number == k %} class="active"{% endif %}><a href=""
+                        hx-get="{% url the_url %}?page={{k}}"
+                        hx-trigger="click"
+                        hx-swap="innerHTML"
+                        hx-target="#main_section"
+                    >{{k}}</a></li>
+            {% endfor %}
+            {% if page.has_next %}
+            <li><a href="#"
+                    hx-get="{% url the_url %}?page={{page.next_page_number}}"
+                    hx-trigger="click"
+                    hx-swap="innerHTML"
+                    hx-target="#main_section"
+                >&gt;</a></li>
+            {% endif %}
+        
+        {% endwith %}
+        </ul>
+    </div>
+</div>

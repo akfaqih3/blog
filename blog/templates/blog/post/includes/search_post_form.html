@@ -1,0 +1,11 @@
+<div class="search-form">
+    <div class="form-group shadow-sm d-flex">
+        <div class="icon"><span class="icon-search"></span></div>
+        <input type="text" class="form-control text-info" placeholder="Search..." name="query"
+            hx-get="{% url 'blog:post_search' %}"
+            hx-trigger="keyup changed delay:500ms"
+            hx-target="#main_section"
+            hx-swap="innerHTML"
+        >
+    </div>
+</div>

@@ -1,0 +1,19 @@
+{% load blog_tags %}
+{% block main %}
+    {% if tag %}
+        <h2>Posts tagged with "{{ tag.name }}"</h2>
+    {% endif %}
+    {% for post in posts %}
+        <div class="row pt-md-4">
+            {% include "blog/post/includes/card_post.html" %}
+        </div><!-- END-->
+    {% endfor %}
+    
+    <div class="row">
+        {% include "pagination.html" with page=posts %}
+    </div>
+
+{% endblock main %}
+
+
+

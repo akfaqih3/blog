@@ -1,0 +1,23 @@
+{% load blog_tags %}
+{% block main %}
+<h1>Posts containing "{{ query }}"</h1>
+
+{% for post in results %}
+    
+    <div class="block-21 mb-4 d-flex">
+        <a class="blog-img mr-4" href="{{post.get_absolute_url}}" style="background-image: url({% if post.photo %} {{post.photo.url}} {%endif%});"></a>
+        <div class="text">
+        <h2 class=""><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+        <p>{{ post.body|markdown|truncatewords_html:12 }}</p>
+        <div class="meta">
+            <div><a href="{{post.get_absolute_url}}"><span class="icon-calendar"></span> {{post.publish}}</a></div>
+            <div><a href="{{post.get_absolute_url}}"><span class="icon-person"></span>{{post.author}}</a></div>
+            <div><a href="{{post.get_absolute_url}}"><span class="icon-chat"></span> {{post.comments.count}}</a></div>
+        </div>
+        </div>
+    </div>
+    {% empty %}
+    <p>There are no results for your query.</p>
+{% endfor %}
+{% comment %} <p><a href="{% url "blog:post_search" %}">Search again</a></p> {% endcomment %}
+{% endblock main %}

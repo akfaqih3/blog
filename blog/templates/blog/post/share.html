@@ -1,0 +1,39 @@
+{% block main %}
+    {% if sent %}
+        <h2>E-mail successfully sent</h2>
+        <p>
+            "{{ post.title }}" was successfully sent to {{ form.cleaned_data.to }}.
+        </p>
+    {% else %}
+        <h1>Share "{{ post.title }}" by e-mail</h1>
+        <div class="comment-form-wrap pt-2">
+            <form action="" method="POST" class="p-3 p-md-5 bg-light"
+                hx-post="{% url 'blog:post_share' post.id %}"
+                hx-trigger="click from:#share"
+                hx-swap="innerHTML"
+                hx-target="this"
+            >
+                    {% csrf_token %}
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email" name="to">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="comments" id="message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Post Comment" name="share" id="share" class="btn py-3 px-4 btn-primary">
+                </div>
+            </form>
+        </div>
+    {% endif %}
+{% endblock main %}

@@ -1,0 +1,45 @@
+{% load blog_tags %}
+<div class="col-md-12">
+  <div class="blog-entry  d-md-flex">
+      <a  href="#" class="img img-2" style="background-image: url({% if post.photo %} {{post.photo.url}} {%endif%});"
+        hx-get="{{post.get_absolute_url}}"
+        hx-trigger="click"
+        hx-swap="innerHTML"
+        hx-target="#main_section"
+      ></a>
+      <div class="text text-2 pl-md-4">
+          <h3 class="mb-2">
+            <a href=""
+                hx-get="{{post.get_absolute_url}}"
+                hx-trigger="click"
+                hx-swap="innerHTML"
+                hx-target="#main_section"
+            >
+                {{ post.title }}
+            </a>
+        </h3>
+          <div class="meta-wrap">
+              <p class="meta">
+                  <span><i class="icon-calendar mr-2"></i>{{ post.publish }}</span>
+                  <span>{% if post.tags.all.0 %}<a href="{% url "blog:post_list_by_tag" post.tags.all.0.slug %}"><i class="icon-folder-o mr-2"></i>{{post.tags.all.0}}</a>{% endif %}</span>
+                  <span><i class="icon-comment2 mr-2"></i>
+                    {% with comments.count as total_comments %}
+                        {{ total_comments }} Comment{{ total_comments|pluralize }}
+                    {% endwith %}
+                  </span>
+              </p>
+          </div>
+          <p class="mb-4">{{ post.body|markdown|truncatewords_html:17 }}</p>
+          <p>
+            <a href="" class="btn-custom"
+                hx-get="{{post.get_absolute_url}}"
+                hx-trigger="click"
+                hx-swap="innerHTML"
+                hx-target="#main_section"
+            >
+                Read More <span class="ion-ios-arrow-forward"></span>
+            </a>
+            </p>
+      </div>
+  </div>
+</div>

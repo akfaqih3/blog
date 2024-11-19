@@ -1,0 +1,44 @@
+{% load static %}
+{% load blog_tags %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "blog/includes/head.html" %}
+    </head>
+    <body> 
+        <div id="colorlib-page">
+            <!--============== left sidebar (header) ==============-->
+            {% include "blog/includes/header.html" %}
+            <!--============== End left sidebar (header) ==============-->
+
+            <div id="colorlib-main" class="col-xl-10 col-md-9 w-100">
+                <section class="ftco-section ftco-no-pt ftco-no-pb">
+                        <div class="row d-flex">
+                            <div class="col-xl-8 py-5 px-md-5" id="main_section"
+                                hx-get="{% url 'blog:post_list' %}"
+                                hx-trigger="load"
+                                hx-swap="innerHTML"
+                                hx-target="this"
+                            >
+                               {% block main %}{% endblock main %}
+                            </div>
+                
+                            <div class="col-xl-4 sidebar pt-5 ftco-animate bg-light">
+                                
+                                {% block sidebar %}
+                                {% include "blog/includes/sidebar.html" %}
+                                {% endblock sidebar %}
+
+                            </div><!-- END COL -->
+                        </div>
+                </section>
+            </div><!-- END COLORLIB-MAIN -->
+        </div><!-- END COLORLIB-PAGE -->
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+        {% include "blog/includes/scripts.html" %}
+    </body>
+</html>

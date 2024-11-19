@@ -1,0 +1,32 @@
+<div class="comment-form-wrap pt-5">
+    <h3 class="mb-5">Leave a comment</h3>
+
+    {% if form.errors %}
+        {% for err in form.errors %}
+            <li>{{err}}</li>
+        {% endfor %}
+    {% endif %}
+    <form action="" method="POST" class="p-3 p-md-5 bg-light"
+        hx-post="{{post.get_absolute_url}}"
+        hx-trigger="click from:#add"
+        hx-swap="innerHTML"
+        hx-target="#main_section"
+    >
+            {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name *</label>
+            {{form.name}}
+        </div>
+        <div class="form-group">
+            <label for="email">Email *</label>
+            {{form.email}}
+        </div>
+        <div class="form-group">
+            <label for="message">Message *</label>
+            {{form.body}}
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Post Comment" id="add" class="btn py-3 px-4 btn-primary">
+        </div>
+    </form>
+</div>

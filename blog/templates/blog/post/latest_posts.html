@@ -1,0 +1,23 @@
+    {% for post in latest_posts %}
+    <div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" href="{{post.get_absolute_url}}" style="background-image: url({% if post.photo %} {{post.photo.url}} {%endif%});"
+                hx-get="{{post.get_absolute_url}}"
+                hx-trigger="click"
+                hx-swap="innerHTML"
+                hx-target="#main_section"
+            ></a>
+            <div class="text">
+            <h3 class="heading"><a href="{{post.get_absolute_url}}"
+                    hx-get="{{post.get_absolute_url}}"
+                    hx-trigger="click"
+                    hx-swap="innerHTML"
+                    hx-target="#main_section"
+                >{{post.title|truncatewords:3}}</a></h3>
+            <div class="meta d-flex justify-content-between">
+                <div><a ><span class="icon-calendar"></span> {{post.publish|date}}</a></div>
+                <div><a ><span class="icon-person"></span>{{post.author|truncatechars:13}}</a></div>
+                <div><a ><span class="icon-chat"></span> {{post.comments.count}}</a></div>
+            </div>
+            </div>
+        </div>
+    {% endfor %}

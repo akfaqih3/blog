@@ -1,0 +1,95 @@
+{% load blog_tags %}
+<div class="sidebar-box pt-md-4">
+    {% include "blog/post/includes/search_post_form.html" %}
+    {% comment %} {% get_search_post_form %} {% endcomment %}
+</div>
+{% comment %} <div class="sidebar-box ftco-animate">
+    <h3 class="sidebar-heading">Categories</h3>
+    <ul class="categories">
+        <li><a href="#">Fashion <span>(6)</span></a></li>
+        <li><a href="#">Technology <span>(8)</span></a></li>
+        <li><a href="#">Travel <span>(2)</span></a></li>
+        <li><a href="#">Food <span>(2)</span></a></li>
+        <li><a href="#">Photography <span>(7)</span></a></li>
+    </ul>
+</div> {% endcomment %}
+
+{% comment %} <div class="sidebar-box ftco-animate">
+    <h3 class="sidebar-heading">SIMILAR POSTS</h3>
+    {% if similar_posts %}
+        {% for post in similar_posts %}
+        <div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" href="{{post.get_absolute_url}}" style="background-image: url({% if post.photo %} {{post.photo.url}} {%endif%});"></a>
+            <div class="text">
+            <h3 class="heading"><a href="{{post.get_absolute_url}}">{{post.title|truncatewords:3}}</a></h3>
+            <div class="meta">
+                <div><a href="{{post.get_absolute_url}}"><span class="icon-calendar"></span> {{post.publish}}</a></div>
+                <div><a href="{{post.get_absolute_url}}"><span class="icon-person"></span>{{post.author}}</a></div>
+                <div><a href="{{post.get_absolute_url}}"><span class="icon-chat"></span> {{post.comments.count}}</a></div>
+            </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        {% get_most_commented_posts 3 as most_commented_posts %}
+        {% for post in most_commented_posts %}
+        <div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" href="{{post.get_absolute_url}}" style="background-image: url({% if post.photo %} {{post.photo.url}} {%endif%});"></a>
+            <div class="text">
+                <h3 class="heading"><a href="{{post.get_absolute_url}}">{{post.title|truncatewords:3}}</a></h3>
+                <div class="meta">
+                    <div><a href="{{post.get_absolute_url}}"><span class="icon-calendar"></span> {{post.publish}}</a></div>
+                    <div><a href="{{post.get_absolute_url}}"><span class="icon-person"></span>{{post.author}}</a></div>
+                    <div><a href="{{post.get_absolute_url}}"><span class="icon-chat"></span> {{post.comments.count}}</a></div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div> {% endcomment %}
+
+
+<div class="sidebar-box ftco-animate">
+    <ul class="tagcloud">
+        {% get_tags as tags%}
+        {% for tag in tags  %}
+            <a href="#" class="tag-cloud-link bg-white shadow-sm text-info"
+                hx-get="{% url 'blog:post_list_by_tag' tag.slug %}"
+                hx-trigger="click"
+                hx-target="#main_section"
+                hx-swap="innerHTML"
+            >
+            {{tag}}
+        </a>
+        {% endfor %}
+    </ul>
+</div>
+<div class="sidebar-box ftco-animate">
+    <h3 class="sidebar-heading">LATEST POSTS</h3>
+    {% show_latest_posts 3%}
+</div>
+
+<div class="sidebar-box ftco-animate">
+    <h3 class="sidebar-heading">Archives</h3>
+    <ul class="categories">
+        {% get_archives_of_posts as archives %}
+        {% for archive in archives %}
+        <li>
+            <a href="#"
+                hx-get="{% url 'blog:post_list_by_archive' archive.date %}"
+                hx-trigger="click"
+                hx-target="#main_section"
+                hx-swap="innerHTML"
+            >
+                {{archive.date}}<span>({{archive.post_count}})</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<p>
+    <a href="{% url "blog:post_feed" %}">
+        Subscribe to my RSS feed
+    </a>
+</p>
